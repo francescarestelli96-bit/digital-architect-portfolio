@@ -92,32 +92,7 @@ export default function Page() {
       style={{ fontFamily: 'system-ui, -apple-system, sans-serif' }}>
       
       {/* HEADER */}
-      <div className="fixed top-0 left-0 right-0 px-4 sm:px-8 md:px-12 lg:px-24 py-4 sm:py-6 md:py-10 z-50 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 sm:gap-0 md:h-44" style={{ fontFamily: 'Inter, system-ui, sans-serif' }}>
-        {/* BRANDING */}
-        <div className="flex flex-col gap-0.5">
-          <h1 
-            className="text-white font-thin transition-all duration-500"
-            style={{ 
-              fontSize: 'clamp(18px, 6vw, 32px)', 
-              letterSpacing: '0.5em',
-              fontWeight: 100,
-              lineHeight: 1,
-              textShadow: activeModal ? '0 0 15px rgba(234, 179, 8, 0.3)' : 'none'
-            }}>
-            {t.name}
-          </h1>
-          <p 
-            className="text-white font-thin hidden sm:block"
-            style={{ 
-              fontSize: 'clamp(10px, 2vw, 13px)', 
-              letterSpacing: '0.5em',
-              fontWeight: 100,
-              lineHeight: 1.2
-            }}>
-            {t.subtitle}
-          </p>
-        </div>
-
+      <div className="fixed top-0 left-0 right-0 px-4 sm:px-8 md:px-12 lg:px-24 py-4 sm:py-6 md:py-10 z-50 flex items-center justify-end" style={{ fontFamily: 'Inter, system-ui, sans-serif' }}>
         {/* MENU */}
         <nav className="flex gap-4 sm:gap-6 md:gap-12 overflow-x-auto sm:overflow-visible">
           {t.nav.map(item => {
