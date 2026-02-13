@@ -38,11 +38,11 @@ export default function RootLayout({
             <div className="film-grain" />
           </div>
 
-          <header style={{ display: 'flex', justifyContent: 'flex-start', alignItems: 'flex-start', padding: '28px 48px', position: 'relative', zIndex: 20 }}>
-            <div style={{ display: 'flex', flexDirection: 'column', gap: '6px' }}>
-              <div style={{ fontFamily: 'var(--font-geist-sans)', fontWeight: 300, letterSpacing: '0.36em', textTransform: 'uppercase', color: '#ffffff' }}>
-                <div style={{ fontSize: '14px' }}>FRANCESCA RESTELLI</div>
-                <div style={{ fontSize: '11px', opacity: 0.85 }}>DIGITAL ARCHITECT FOR CLASSICAL MUSIC</div>
+          <header style={{ display: 'flex', justifyContent: 'flex-start', alignItems: 'center', padding: '28px 48px', position: 'relative', zIndex: 60, pointerEvents: 'auto' }}>
+            <div style={{ display: 'flex', flexDirection: 'column', gap: '4px' }}>
+              <div style={{ fontFamily: 'var(--font-geist-sans)', fontWeight: 300, letterSpacing: '0.42em', textTransform: 'uppercase', color: '#ffffff' }}>
+                <div style={{ fontSize: 'clamp(18px, 2.6vw, 26px)', lineHeight: 1 }}>{'FRANCESCA RESTELLI'}</div>
+                <div style={{ fontSize: 'clamp(12px, 1.4vw, 14px)', opacity: 0.95 }}>{'DIGITAL ARCHITECT FOR CLASSICAL MUSIC'}</div>
               </div>
             </div>
           </header>
