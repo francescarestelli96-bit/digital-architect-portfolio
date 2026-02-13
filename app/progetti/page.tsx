@@ -7,7 +7,7 @@ const projects = [
   { name: "Alberto Chines", url: "https://albertochines-site.vercel.app/" },
   { name: "Francesca Restelli Portfolio", url: "https://www.francescarestelli.com/" },
   { name: "Ridescape", url: "https://ridescape.bike/" },
-  { name: "Merry Xmas Dave", url: "https://merry-xmas-dave.vercel.app/" },
+  { name: "Relax Room & Diary", url: "https://merry-xmas-dave-je0oblgc4-francescas-projects-a654bd16.vercel.app/" },
 ];
 
 export default function ProjectsPage() {
