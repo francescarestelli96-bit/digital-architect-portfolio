@@ -92,7 +92,7 @@ export default function Page() {
       style={{ fontFamily: 'system-ui, -apple-system, sans-serif' }}>
       
       {/* HEADER */}
-      <div className="fixed top-0 left-0 right-0 px-4 sm:px-8 md:px-12 lg:px-24 py-4 sm:py-6 md:py-10 z-50 flex items-center justify-end" style={{ fontFamily: 'Inter, system-ui, sans-serif' }}>
+      <div className="fixed top-0 left-0 right-0 px-4 sm:px-8 md:px-12 lg:px-24 py-4 sm:py-6 md:py-10 z-50 flex items-center justify-end" style={{ fontFamily: 'Inter, system-ui, sans-serif', pointerEvents: 'auto' }}>
         {/* MENU */}
         <nav className="flex gap-4 sm:gap-6 md:gap-12 overflow-x-auto sm:overflow-visible">
           {t.nav.map(item => {
@@ -133,7 +133,8 @@ export default function Page() {
       </div>
 
       {/* BOTTONI CENTRALI ORIZZONTALI */}
-      <div className="absolute inset-0 flex items-center justify-center z-20 pointer-events-auto px-4 sm:px-8">
+      <div className="absolute inset-0 flex items-center justify-center z-10 pointer-events-none px-4 sm:px-8">
+        <div style={{ pointerEvents: 'auto' }}>
         <div className="flex flex-col sm:flex-row gap-6 sm:gap-12 md:gap-20 w-full sm:w-auto">
           {/* BOTTONE PROGETTI */}
           <a
@@ -173,6 +174,7 @@ export default function Page() {
               {t.button2}
             </span>
           </button>
+        </div>
         </div>
       </div>
 
