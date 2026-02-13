@@ -14,8 +14,7 @@ export default function ProjectsPage() {
   return (
     <div className="min-h-screen bg-black text-white font-serif p-10 md:p-20">
       <div className="max-w-4xl mx-auto">
-        {/* Torna alla Bio o Home */}
-        <Link href="/bio" className="text-[10px] uppercase tracking-[0.5em] opacity-50 hover:opacity-100 transition-opacity">
+        <Link href="/" className="text-[10px] uppercase tracking-[0.5em] opacity-50 hover:opacity-100 transition-opacity">
           ← Back
         </Link>
 
