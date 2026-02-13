@@ -94,7 +94,7 @@ export default function Page() {
       {/* HEADER */}
       <div className="fixed top-0 left-0 right-0 px-4 sm:px-8 md:px-12 lg:px-24 py-4 sm:py-6 md:py-10 z-50 flex items-center justify-end" style={{ fontFamily: 'Inter, system-ui, sans-serif', pointerEvents: 'auto' }}>
         {/* MENU */}
-        <nav className="flex gap-4 sm:gap-6 md:gap-12 overflow-x-auto sm:overflow-visible">
+        <nav className="flex gap-4 sm:gap-6 md:gap-12 overflow-x-auto sm:overflow-visible" style={{ zIndex: 100, position: 'relative', pointerEvents: 'auto' }}>
           {t.nav.map(item => {
             const isHovered = hoveredNav === item;
             return (
