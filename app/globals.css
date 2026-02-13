@@ -89,7 +89,7 @@ body {
 .liquid-gradient {
   background: linear-gradient(45deg, #020617, #2e1065, #064e3b, #020617);
   background-size: 300% 300%;
-  animation: liquidGradient 5s ease infinite;
+  animation: liquidGradient 6s linear infinite;
   position: relative;
 }
 

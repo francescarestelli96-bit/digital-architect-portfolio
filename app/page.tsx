@@ -1,6 +1,6 @@
 "use client";
 import React, { useState, useEffect } from 'react';
-import { Mail, Instagram, Linkedin, Github } from 'lucide-react';
+import { Mail, Instagram, Linkedin, Github } from './components/Icons';
 
 const content = {
   it: {
